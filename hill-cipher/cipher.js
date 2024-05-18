@@ -53,9 +53,7 @@ function hillN(A, str){
 
     const pNSize = A[0].length;
     
-    let n = 0;
-    if(str.length % pNSize !== 0)
-        n = (str.length % pNSize);
+    let n = str.length % pNSize;
     
 
     for(let i=0; i<n; i++)
